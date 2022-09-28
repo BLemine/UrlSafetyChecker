@@ -10,4 +10,4 @@ EXPOSE 8080
 RUN mkdir /app
 COPY --from=build /home/gradle/src/build/libs/*.jar /app/urlSafetyChecker-0.0.1-SNAPSHOT.jar
 
-CMD ["java", "-XX:+UnlockExperimentalVMOptions", "-XX:+UseCGroupMemoryLimitForHeap", "-Djava.security.egd=file:/dev/./urandom", "-jar", "/app/urlSafetyChecker-0.0.1-SNAPSHOT.jar", "--googleApiKey=AIzaSyAKBkcNNeTCgYId3qo8E5fizYB3SC8mk8I"]
+CMD ["java", "-XX:+UnlockExperimentalVMOptions", "-XX:+UseCGroupMemoryLimitForHeap", "-Djava.security.egd=file:/dev/./urandom", "-jar", "/app/urlSafetyChecker-0.0.1-SNAPSHOT.jar", "--googleApiKey=${googleApiKey}"]
