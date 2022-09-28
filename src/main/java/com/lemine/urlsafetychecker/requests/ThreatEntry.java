@@ -1,10 +1,10 @@
-package com.lemine.urlsafetychecker.controllers.responses;
+package com.lemine.urlsafetychecker.requests;
 
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter
 @Setter
-public class Threat {
+public class ThreatEntry {
     private String url;
 }

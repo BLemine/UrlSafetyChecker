@@ -1,4 +1,4 @@
-package com.lemine.urlsafetychecker.controllers.responses;
+package com.lemine.urlsafetychecker.responses;
 
 import lombok.Getter;
 import lombok.Setter;

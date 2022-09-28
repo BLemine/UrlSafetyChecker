@@ -1,4 +1,4 @@
-package com.lemine.urlsafetychecker.controllers.responses;
+package com.lemine.urlsafetychecker.responses;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Getter;

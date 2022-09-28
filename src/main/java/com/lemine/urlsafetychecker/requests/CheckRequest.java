@@ -1,4 +1,4 @@
-package com.lemine.urlsafetychecker.controllers.requests;
+package com.lemine.urlsafetychecker.requests;
 
 import lombok.Getter;
 import lombok.Setter;
